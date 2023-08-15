@@ -78,8 +78,10 @@ Before being able to use and execute our generated query we need to have the Apo
 `yarn add @apollo/client graphql`
 
 > **`@apollo/client`**: This single package contains virtually everything you need to set up Apollo Client. It includes the in-memory cache, local state management, error handling, and a React-based view layer.
+> <br />
 > **`graphql`**: This package provides logic for parsing GraphQL queries.
-> apollographql.com
+> <br />
+> [ApolloGraphql](apollographql.com) 
 
 Note that we are using `typescript-react-apollo` in our `codegen.ts` which does already generate Apollo specific queries.
 
